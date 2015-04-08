@@ -1,0 +1,43 @@
+﻿Build started 4/8/2015 12:55:12 PM.
+     1>Project "C:\Users\Benjy\Documents\cpsc_4500_vs_tmpl\GL_Template\GL_Template.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\ExperimenterSource\ExperimenterSource\Chapter16\BSplines\bSplines.cpp
+         bSplines.cpp
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(37): error C2148: total size of array must not exceed 0x7fffffff bytes
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(37): error C2512: 'point' : no appropriate default constructor available
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(78): error C3861: 'fileReader': identifier not found
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(81): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(96): error C2451: conditional expression of type 'point' is illegal
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(98): error C2451: conditional expression of type 'point' is illegal
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(100): error C2451: conditional expression of type 'point' is illegal
+                 No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(104): error C2065: 'p2' : undeclared identifier
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(104): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(104): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(104): error C2660: 'glVertex3f' : function does not take 2 arguments
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(105): error C2065: 'p3' : undeclared identifier
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(105): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(105): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(105): error C2660: 'glVertex3f' : function does not take 2 arguments
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(106): error C2065: 'p4' : undeclared identifier
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(106): error C2228: left of '.x' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(106): error C2228: left of '.y' must have class/struct/union
+                 type is 'unknown-type'
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(106): error C2660: 'glVertex3f' : function does not take 2 arguments
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(110): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(112): error C2065: 'p2' : undeclared identifier
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(112): error C2065: 'p3' : undeclared identifier
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(112): error C2065: 'p4' : undeclared identifier
+     1>c:\users\benjy\documents\experimentersource\experimentersource\chapter16\bsplines\bsplines.cpp(160): error C2143: syntax error : missing ';' before ')'
+     1>Done Building Project "C:\Users\Benjy\Documents\cpsc_4500_vs_tmpl\GL_Template\GL_Template.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.02
